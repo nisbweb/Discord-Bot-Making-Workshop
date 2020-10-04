@@ -15,7 +15,7 @@
   ```
   or for Linux 
   ```
-	$ pip install discord.py
+	$ pip3 install discord.py
   ```
   Mac
   ```
@@ -23,10 +23,16 @@
   ```
 - Get your bots token from [ the discord developers page](https://discord.com/developers/applications), By selecting your application , going into the bots navigation menu and copying the secret token generated.
 - Add the token in the files at the places mentioned.
+- Add the bot to the server, by generating a link in the OAuth tab of the bot page.
 - Run the python file
   ```
 	$ python <file name>.py
   ```
+
+### Further additions:
+- Host the bot so that it will constantly run, Heroku, Okteto, Civo , AWS etc are all viable options
+- Make multipurpose bots with a varied range of commands.
+- Add logging and error handling in the bot.
 
 ### NOTE:
 - If you get a invalid certificate issue, 
